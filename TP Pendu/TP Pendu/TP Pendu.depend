@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1510093650 source:c:\users\geuks\desktop\ludus\licence 2\tp c\tp pendu\tp pendu\main.c
-	<stdio.h>
-	<stdlib.h>
-	<windows.h>
-	<ctype.h>
-
