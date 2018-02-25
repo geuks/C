@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519592024 source:c:\users\geuks\desktop\ludus\licence 2\c\tp c\exercices\tp carte identite 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
