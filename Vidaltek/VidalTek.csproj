@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{033A6E1F-25DD-1F89-8588-B7370F19A77F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>5.6.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;dUI_DoozyUI;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;dUI_DoozyUI;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Extra/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets/Extra/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets/Extra/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets/Extra/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-1.0.56-Editor">
+      <HintPath>Assets/Extra/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-1.0.56-Runtime">
+      <HintPath>Assets/Extra/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CSV\CSV.cs" />
+    <Compile Include="Assets\Extra\Demigiant\DOTween\Examples\Basics.cs" />
+    <Compile Include="Assets\Extra\Demigiant\DOTween\Examples\Sequences.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Examples\Shared\Scripts\ButtonPresetToText.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\ApplicationQuitOrClose.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\DisableBackButton.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\EnableBackButton.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\SendButtonClick.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\SendGameEvent.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\ShowHide.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\ShowUINotification.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\ToggleMusic.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\TogglePause.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Actions\ToggleSound.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\PlayMaker\Scripts\PlaymakerEventDispatcher.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\DUI\DUI.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\EventSystem\Message.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\DoozyUI_Data.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\FileHelper.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\RadialLayout.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\RendererExtensions.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\SceneLoader.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\Singleton.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Helpers\UpdateSortingLayerName.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\OrientationManager\OrientationManager.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\ScriptableObjects\AnimData.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\ScriptableObjects\DUISettings.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\ScriptableObjects\LoopData.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\ScriptableObjects\NamesDatabase.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\ScriptableObjects\PunchData.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\ScriptableObjects\UISound.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\Soundy\Soundy.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\TouchManager\GestureDetector.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\TouchManager\TouchManager.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIAnimationManager.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIAnimator.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIAnimatorUtil.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIButton.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UICanvas.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIEffect.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIElement.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UINavigation.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UINotification.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UINotificationManager.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UIToggle.cs" />
+    <Compile Include="Assets\Extra\DoozyUI\Scripts\UI\UITrigger.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\Anim.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ButtonInteractableControl.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\CheckBoxToggler.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\CheckboxConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\CheckboxFillerControl.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ColorCopier.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\DialogBoxConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\EZAnim.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\FPSCounter.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\HSBColor.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\InputFieldConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\MaterialGlobals.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\MaterialUIScaler.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\MaterialUIVersion.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\MenuArrowAnim.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\NavDrawerConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\RadioConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\RectTransformSnap.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\RippleAnim.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\RippleConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\RippleControl.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ScreenConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ScreenManager.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SelectionBoxConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SelectionListItemConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ShadowAnim.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ShadowConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ShadowGen.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ShadowSnap.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SliderConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SnapButtonToText.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SpriteSwapper.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\SwitchConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\TextInputLine.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ToastAnim.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ToastControl.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\Toaster.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ToggleConfig.cs" />
+    <Compile Include="Assets\Extra\MaterialUI\Scripts\ToggleTextChanger.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Classes\QColor.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Classes\QColors.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Classes\QResources.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Common\Singleton.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Core\Q.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\ArrayAndListExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\AudioExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\BoolExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\CameraExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\ColorExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\DictionaryExtenstions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\FloatExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\IListExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\RectTransformExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Extensions\VectorExtensions.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\IO\File.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Utils\QAssets.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Utils\QEmailValidator.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Utils\QEncryption.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Utils\QIPValidator.cs" />
+    <Compile Include="Assets\Extra\Plugins\Quick\Engine\Utils\QReflection.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameManagerMainMenu.cs" />
+    <Compile Include="Assets\Scripts\Structure.cs" />
+    <Compile Include="Assets\Scripts\TwoArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Extra\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Extra\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\Extra\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\Extra\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\Extra\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Extra\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Extra\DoozyUI\Readme.txt" />
+    <None Include="Assets\Extra\MaterialUI\Fonts\NOTICE.txt" />
+    <None Include="Assets\Extra\Plugins\Quick\Editor\Resources\Quick\Fonts\Ubuntu\UFL.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Extra\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
