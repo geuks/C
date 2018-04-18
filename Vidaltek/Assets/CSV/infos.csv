@@ -1,0 +1,46 @@
+﻿0,Sertraliine,Antidépresseur,Episode dépressif- panique- TOC- anxiété et tt préventif : récidives
+1,Methylprednisolone IV,AIS- corticoïdes,Allergie- infectieux- neurologique- ORL
+2,Solupred (Prednisolone),AIS- glucocorticoïdes,Cs- sclérose en plaque- rhumatisme articulaire aigue- allergie- crise d'asthme- sinusite aigue- otite
+3,Movicol,Laxatif,Constipation
+4,Allopurinol,Hypo-urécémiant,Crise de goutte- hémopathie- néphropathie- hyperurécémie et tt préventif lithiase urique
+5,Crestor,Hypolipidémiant,Hypercholestérolémie et tt préventif maladie cardiovasculaire
+6,Amlodipine (Amlor),Inhibiteur calcique (relâchement des vaisseaux sanguin- augmente o² ),HTA- angor
+7,Ciprofloxacine (Ciflox),ATB fluoriquinolone (empêche recomposition ADN bactérien),Infections respiratoires- urinaire- app génital- gastro-intestinal- intra-abdos- otite
+8,Augmentin (Amoxiciline),ATB pénicilline élargie,Infections sinusite bactérienne aigue- otite- exacerbation bronchique chronique- peneumonie- infection peau et tissus mous
+9,Perindopril,Inhibiteur de l'enzyme de conversion angiotensine I en II,HTA- insuffisance cardiaque- coronaropathie
+10,Lercanidipril,Antagoniste calcique- antihypertenseur,HTA
+11,Sotalol (Sotalox),Bétabloquant- antiarythmique,Tt préventif tachycardie
+12,Imovane ( Zopiclone),Hypnotique- sédatif,Insomnie
+13,Eliquis (Apixaban),Antithrombotique- inhibiteur facteurs Xa,TVP- EP et tt préventif évènement thromboemboliques veineux (ETEV)- AVC- fibrillation non valvulaire (FANV) et récidives
+14,Pravastatine,Hypolipidémiant- hypocholestérolémiant- hypotryglycérides,Hypercholestérol
+15,Atorvastatine ( Tahor),Hypolipidémiant,Hypercholestérol et tt préventif des maladies cardiovasculaires
+16,Metoprolol,Bétabloquant- antiarythmique,HTA- crises d'angor à l'effort- infarctus du myocarde phase aigue
+17,Nebivolol,Bétabloquant- vasodilatateur modéré,HTA- IRC
+18,Cetirizine,Antihistaminique- dérivé de la pipérazine,Rhinite- urticaire
+19,Zamudol,Antalgique- opiacé classe II,Douleurs modérées et sévères
+20,Contramal,Antalgique- classe II,Douleurs modérées et sévères
+21,Topalgic,Antalgique- classe II,Douleurs modérées et sévères
+22,Skénan LP,Antalgique - classe III,Douleurs modérées et sévères
+23,Actiskénan,Antalgique- classe III,Douleurs modérées et sévères
+24,Calciparine (Héparine calcique) IV,Anticoagulant,TVP- infarctus et tt préventif accident thromboembolique
+25,Becilan,Vitamine B6,Carences vitamines
+26,Cardesartan (Atacand),Antagoniste de l'angiotensine ,HTA- insuffisance cardiaque- coronaropathie
+27,Stilnox,Hypnotique- sédatif,Insomnie
+28,Furosémide,Diurétique,Odème- HTA
+29,Fluconazole,Antimycosique,Infection fongique
+30,Duphalac,Laxatif,Constipation
+31,Piperacilline Tazobactan IV,ATB bactérien,Infection pneumonie- urinaire- intra-abdos- peu et tissus mous
+32,Tamiflu,ATB viral,Grippe et tt préventif grippe
+33,Xarelto,Inhnibiteur facteur Xa- anticoagulant,TVP- EP- récidives et tt préventif AVC- embolies systémiques
+34,Tamsulosine (Mecir),Alphabloquant,Hyperthrophie bénigne de la prostate
+35,Cefotaxime IV,ATB bactérien,Infection septicémie- endocardite- méningite
+36,Primpéran,Antagoniste de la dopamine,Nausées- vommissement et préventif
+37,Kardégic,Antithrombotique- inhibiteur agrégant plaquettaire,TT préventif complication cardiovasculaire et cérébro vasculaire- AVC- réduction occusion greffon
+38,Cordarone,Antiarythmique,Tachycardie supraventriculaire- et tt préventif des récidives
+39,Coumadine,Antithrombotique- AVK,Cardiopathie emboligène- TVP- EP et tt préventif complication thromboembolique- infarctus
+40,Ramipril (Triatec),Antihypertenseur- inhibiteur de l'enzyme de conversion (IEC),Hypertension- néphropathie- insuffisance cardiaque- tt préventif cardiovasculaire et tt préventif 2nd infarctus aigu du myocarde 
+41,Levothyrox,Hormone thyroïdienne,Hyper/Hypothyroïdie- diminution de la thyréostimuline (TSH) qui contrôle l'activité de la thyroïde
+42,Bisoce,Bétabloquant,Insuffisance cardiaque chronique stable
+43,Seresta (Oxozepam),Anxiolitique,Anxiété sévère et/ou invalidante et tt préventif delirium tremens- OH
+44,Clopidogrel (Plavix),Antocoagulant- inhibiteur agrégant plaquettaire hors héparine,Préventif accident vasculaire à cause de l'athérothrombotique
+45,Procoralan (Ivabradine),Bradycardenseur- antiangoreux,Angor stable et chronique- insuffisance cardiaque chronique
